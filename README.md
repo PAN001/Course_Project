@@ -1,4 +1,4 @@
-# Course_Project
+# R scipt description
 
 The R script uses two library package: library(dplyr) and library(tidyr)
 
@@ -6,11 +6,11 @@ The R script uses two library package: library(dplyr) and library(tidyr)
 
 2. Load the required file and write them into several variables
 
-3.Step 1: merge test_set and train_set into one table called sets
+3. Step 1: merge test_set and train_set into one table called sets
   
-4.Step 2: extract any measurements related to mean and std
+4. Step 2: extract any measurements related to mean and std
     
-5.Step 3: merge the two acticity tables and add merge them into first_extract
+5. Step 3: merge the two acticity tables and add merge them into first_extract
     
 6. Step 4: Appropriately labels the data set with descriptive variable names
     
