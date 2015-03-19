@@ -1,5 +1,7 @@
 # R scipt description
 
+### description of implementation:
+
 The R script uses two library package: library(dplyr) and library(tidyr)
 
 1. first of all, get the working directory of the user and set several directories:
@@ -16,3 +18,16 @@ The R script uses two library package: library(dplyr) and library(tidyr)
     
 7. Step 5: creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+### description of output:
+
+The output is a text file with four columns "subject" "activity" "sensor" "mean" and 14221 rows;
+
+There are totally 30 subjects, each is involved in 6 activities: 
+1 WALKING
+2 WALKING_UPSTAIRS
+3 WALKING_DOWNSTAIRS
+4 SITTING
+5 STANDING
+6 LAYING
+
+There are 81 different measurements related to std and mean for each activity
