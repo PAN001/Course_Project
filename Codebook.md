@@ -1,19 +1,17 @@
 # DATA DICTIONARY
 
 ## Original source information:
-==================================================================
+
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
-==================================================================
+
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
 DITEN - Universit‡ degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
-activityrecognition@smartlab.ws
-www.smartlab.ws
-==================================================================
+
 License:
-========
+
 Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
@@ -41,11 +39,11 @@ These signals were used to estimate variables of the feature vector for each pat
 
 Features are normalized and bounded within [-1,1]
 
-###The set of variables that were estimated from these signals are: 
+ The set of variables that were estimated from these signals are: 
 mean(): Mean value
 std(): Standard deviation
 
-###Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
+ Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 gravityMean
 tBodyAccMean
 tBodyAccJerkMean
@@ -54,82 +52,82 @@ tBodyGyroJerkMean
 
 ## Variable specific description:
 
-###tBodyAcc_mean()_X                
-###tBodyAcc_mean()_Y                
-###tBodyAcc_mean()_Z                
-###tBodyAcc_std()_X                
-###tBodyAcc_std()_Y                 
-###tBodyAcc_std()_Z                
-###tGravityAcc_mean()_X             
-###tGravityAcc_mean()_Y            
-###tGravityAcc_mean()_Z             
-###tGravityAcc_std()_X              
-###tGravityAcc_std()_Y              
-###tGravityAcc_std()_Z             
-###tBodyAccJerk_mean()_X            
-###tBodyAccJerk_mean()_Y            
-###tBodyAccJerk_mean()_Z            
-###tBodyAccJerk_std()_X            
-###tBodyAccJerk_std()_Y             
-###tBodyAccJerk_std()_Z             
-###tBodyGyro_mean()_X               
-###tBodyGyro_mean()_Y              
-###tBodyGyro_mean()_Z              
-###tBodyGyro_std()_X            
-###tBodyGyro_std()_Y                
-###tBodyGyro_std()_Z               
-###tBodyGyroJerk_mean()_X           
-###tBodyGyroJerk_mean()_Y           
-###tBodyGyroJerk_mean()_Z           
-###tBodyGyroJerk_std()_X           
-###tBodyGyroJerk_std()_Y            
-###tBodyGyroJerk_std()_Z            
-###tBodyAccMag_mean()               
-###tBodyAccMag_std()               
-###tGravityAccMag_mean()            
-###tGravityAccMag_std()            
-###tBodyAccJerkMag_mean()           
-###tBodyAccJerkMag_std()           
-###tBodyGyroMag_mean()              
-###tBodyGyroMag_std()               
-###tBodyGyroJerkMag_mean()         
-###tBodyGyroJerkMag_std()          
-###fBodyAcc_mean()_X                
-###fBodyAcc_mean()_Y               
-###fBodyAcc_mean()_Z                
-###fBodyAcc_std()_X                
-###fBodyAcc_std()_Y                 
-###fBodyAcc_std()_Z                 
-###fBodyAcc_meanFreq()_X            
-###fBodyAcc_meanFreq()_Y           
-###fBodyAcc_meanFreq()_Z            
-###fBodyAccJerk_mean()_X            
-###fBodyAccJerk_mean()_Y            
-###fBodyAccJerk_mean()_Z           
-###fBodyAccJerk_std()_X             
-###fBodyAccJerk_std()_Y             
-###fBodyAccJerk_std()_Z            
-###fBodyAccJerk_meanFreq()_X       
-###fBodyAccJerk_meanFreq()_Y        
-###fBodyAccJerk_meanFreq()_Z        
-###fBodyGyro_mean()_X               
-###fBodyGyro_mean()_Y             
-###fBodyGyro_mean()_Z             
-###fBodyGyro_std()_X                
-###fBodyGyro_std()_Y                
-###fBodyGyro_std()_Z               
-###fBodyGyro_meanFreq()_X           
-###fBodyGyro_meanFreq()_Y           
-###fBodyGyro_meanFreq()_Z           
-###fBodyAccMag_mean()              
-###fBodyAccMag_std()                
-###fBodyAccMag_meanFreq()           
-###fBodyBodyAccJerkMag_mean()       
-###fBodyBodyAccJerkMag_std()       
-###fBodyBodyAccJerkMag_meanFreq()  
-###fBodyBodyGyroMag_mean()          
-###fBodyBodyGyroMag_std()           
-###fBodyBodyGyroMag_meanFreq()     
-###fBodyBodyGyroJerkMag_mean()      
-###fBodyBodyGyroJerkMag_std()       
-###fBodyBodyGyroJerkMag_meanFreq() 
+ tBodyAcc_mean()_X                
+ tBodyAcc_mean()_Y                
+ tBodyAcc_mean()_Z                
+ tBodyAcc_std()_X                
+ tBodyAcc_std()_Y                 
+ tBodyAcc_std()_Z                
+ tGravityAcc_mean()_X             
+ tGravityAcc_mean()_Y            
+ tGravityAcc_mean()_Z             
+ tGravityAcc_std()_X              
+ tGravityAcc_std()_Y              
+ tGravityAcc_std()_Z             
+ tBodyAccJerk_mean()_X            
+ tBodyAccJerk_mean()_Y            
+ tBodyAccJerk_mean()_Z            
+ tBodyAccJerk_std()_X            
+ tBodyAccJerk_std()_Y             
+ tBodyAccJerk_std()_Z             
+ tBodyGyro_mean()_X               
+ tBodyGyro_mean()_Y              
+ tBodyGyro_mean()_Z              
+ tBodyGyro_std()_X            
+ tBodyGyro_std()_Y                
+ tBodyGyro_std()_Z               
+ tBodyGyroJerk_mean()_X           
+ tBodyGyroJerk_mean()_Y           
+ tBodyGyroJerk_mean()_Z           
+ tBodyGyroJerk_std()_X           
+ tBodyGyroJerk_std()_Y            
+ tBodyGyroJerk_std()_Z            
+ tBodyAccMag_mean()               
+ tBodyAccMag_std()               
+ tGravityAccMag_mean()            
+ tGravityAccMag_std()            
+ tBodyAccJerkMag_mean()           
+ tBodyAccJerkMag_std()           
+ tBodyGyroMag_mean()              
+ tBodyGyroMag_std()               
+ tBodyGyroJerkMag_mean()         
+ tBodyGyroJerkMag_std()          
+ fBodyAcc_mean()_X                
+ fBodyAcc_mean()_Y               
+ fBodyAcc_mean()_Z                
+ fBodyAcc_std()_X                
+ fBodyAcc_std()_Y                 
+ fBodyAcc_std()_Z                 
+ fBodyAcc_meanFreq()_X            
+ fBodyAcc_meanFreq()_Y           
+ fBodyAcc_meanFreq()_Z            
+ fBodyAccJerk_mean()_X            
+ fBodyAccJerk_mean()_Y            
+ fBodyAccJerk_mean()_Z           
+ fBodyAccJerk_std()_X             
+ fBodyAccJerk_std()_Y             
+ fBodyAccJerk_std()_Z            
+ fBodyAccJerk_meanFreq()_X       
+ fBodyAccJerk_meanFreq()_Y        
+ fBodyAccJerk_meanFreq()_Z        
+ fBodyGyro_mean()_X               
+ fBodyGyro_mean()_Y             
+ fBodyGyro_mean()_Z             
+ fBodyGyro_std()_X                
+ fBodyGyro_std()_Y                
+ fBodyGyro_std()_Z               
+ fBodyGyro_meanFreq()_X           
+ fBodyGyro_meanFreq()_Y           
+ fBodyGyro_meanFreq()_Z           
+ fBodyAccMag_mean()              
+ fBodyAccMag_std()                
+ fBodyAccMag_meanFreq()           
+ fBodyBodyAccJerkMag_mean()       
+ fBodyBodyAccJerkMag_std()       
+ fBodyBodyAccJerkMag_meanFreq()  
+ fBodyBodyGyroMag_mean()          
+ fBodyBodyGyroMag_std()           
+ fBodyBodyGyroMag_meanFreq()     
+ fBodyBodyGyroJerkMag_mean()      
+ fBodyBodyGyroJerkMag_std()       
+ fBodyBodyGyroJerkMag_meanFreq() 
