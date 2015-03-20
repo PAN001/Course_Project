@@ -31,3 +31,7 @@ There are totally 30 subjects, each is involved in 6 activities:
 6 LAYING
 
 There are 81 different measurements related to std and mean for each activity
+
+Each variable is in one column, and each different observation of that variable is in a different row.
+
+The result perfectly follows the standard of the tidy data.
